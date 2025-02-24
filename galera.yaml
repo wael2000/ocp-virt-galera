@@ -45,8 +45,8 @@ spec:
               password: cloud8@123
               chpasswd: { expire: False }
               rh_subscription:
-                activation-key: demo
-                org: 10899047
+                activation-key: <ACTIVATION_KEY>
+                org: <ORG_ID>
                 auto-attach: true
               runcmd:
                 - sudo subscription-manager repos --list-enabled
@@ -141,8 +141,8 @@ spec:
               password: cloud8@123
               chpasswd: { expire: False }
               rh_subscription:
-                activation-key: demo
-                org: 10899047
+                activation-key: <ACTIVATION_KEY>
+                org: <ORG_ID>
                 auto-attach: true
               runcmd:
                 - sudo subscription-manager repos --list-enabled
